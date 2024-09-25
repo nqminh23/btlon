@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới thiệu Cảnh đẹp và Ẩm thực Việt Nam</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- liên kết css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+    <!-- liên kết font chữ tiêu đề -->
+  </head>
+  <body>
+    <header>
+      <div class="intro">
+        <svg
+          class="star"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2l2.45 7.6h8.05l-6.5 4.8 2.45 7.6-6.5-4.8-6.5 4.8 2.45-7.6-6.5-4.8h8.05z"
+          />
+        </svg>
+      </div>
+      <h1>Phong Cảnh và Ẩm Thực Việt Nam</h1>
+      <div class="banner">
+        <div class="slides">
+          <img
+            src="https://images.baodantoc.vn/uploads/2022/Th%C3%A1ng%207/Ng%C3%A0y_18/Anh/untitled%20folder/271884371_155175710192340_125395499089496273_n.jpg"
+            alt="Cảnh đẹp Miền Bắc"
+            class="slide"
+          />
+          <img
+            src="https://cafebiz.cafebizcdn.vn/2019/7/12/photo-1-156292434512413329625.jpg"
+            alt="Ẩm thực Miền Trung"
+            class="slide"
+          />
+          <img
+            src="https://daotaobeptruong.vn/wp-content/uploads/2021/03/am-thuc-viet-nam.jpg"
+            alt="Cảnh đẹp Miền Nam"
+            class="slide"
+          />
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="regions">
+        <div class="region" id="north">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnWLN3fXqxZes-8enn1HLbxZ9E4b8EkvufrA&ss"
+            alt="Miền Bắc"
+          />
+          <a
+            href="https://nqminh23.github.io/mienbac/mienbac.html"
+            class="learn-more"
+            >Miền Bắc</a
+          >
+        </div>
+        <div class="region" id="central">
+          <img
+            src="https://static.vinwonders.com/2022/07/du-lich-mien-trung-14.jpg"
+            alt="Miền Trung"
+          />
+          <a
+            href="https://nqminh23.github.io/mientrung/mientrung.html"
+            class="learn-more"
+            >Miền Trung</a
+          >
+        </div>
+        <div class="region" id="south">
+          <img
+            src="https://dulichao.net/wp-content/uploads/2018/12/chia-se-kinh-nghiem-du-lich-mien-nam.jpg"
+            alt="Miền Nam"
+          />
+          <a
+            href="https://nqminh23.github.io/miennam/miennam.html"
+            class="learn-more"
+            >Miền Nam</a
+          >
+        </div>
+      </section>
+    </main>
+    <div>
+      <h1 style="margin-left: 350px; font-family: Arial, Helvetica, sans-serif">
+        Ẩm Thực
+      </h1>
+      <div class="link">
+        <img
+          src="https://image.baophapluat.vn/w840/Uploaded/2024/athlrainaghat/2023_06_11/14b-3366.png"
+          style="margin-left: 350px"
+          alt="Ẩm thực Việt Nam"
+        />
+      </div>
+      <p>
+        Ẩm thực Việt Nam được biết đến với sự phong phú và tinh tế, phản ánh sự
+        đa dạng về văn hóa và lịch sử của đất nước. Các món ăn truyền thống của
+        Việt Nam thường kết hợp hài hòa giữa các hương vị ngọt, chua, cay và
+        mặn, tạo nên những trải nghiệm ẩm thực độc đáo và đầy màu sắc.
+      </p>
+      <br />
+      <p>
+        Phở là một trong những món ăn đặc trưng nhất của Việt Nam. Đây là món
+        súp truyền thống với nước dùng trong, hương vị đậm đà từ xương hầm và
+        các gia vị như quế, hồi và thảo quả. Phở thường được ăn kèm với các loại
+        thịt như bò hoặc gà, rau thơm, và bánh phở mềm mịn, tạo nên một bữa ăn
+        sáng phổ biến và yêu thích.
+      </p>
+      <br />
+      <p>
+        Bún chả là món ăn nổi tiếng khác, đặc biệt ở Hà Nội. Món ăn này bao gồm
+        những miếng thịt heo nướng thơm ngon, được phục vụ cùng với bún, rau
+        sống và nước mắm chua ngọt. Sự kết hợp giữa thịt nướng và nước mắm tạo
+        nên hương vị đặc trưng, hấp dẫn.
+      </p>
+      <br />
+      <p>
+        Bánh xèo, một loại bánh chiên giòn với nhân thịt, tôm và giá đỗ, là món
+        ăn phổ biến ở miền Nam. Bánh xèo thường được ăn kèm với rau sống và nước
+        chấm, mang đến sự hòa quyện hoàn hảo giữa lớp vỏ giòn rụm và nhân tươi
+        ngon.
+      </p>
+      <br />
+      <p>
+        Ẩm thực Việt Nam không chỉ nổi bật với các món ăn chính mà còn với các
+        món ăn nhẹ như nem cuốn và chè. Nem cuốn là những cuộn bánh tráng nhồi
+        thịt, rau và bún, thường được ăn kèm với nước chấm. Chè, một loại món
+        tráng miệng, có nhiều biến thể với các nguyên liệu như đậu xanh, sữa dừa
+        và trái cây.
+      </p>
+      <br />
+      <h1 style="margin-left: 350px; font-family: Arial, Helvetica, sans-serif">
+        Phong Cảnh
+      </h1>
+      <img
+        src="https://vnpay.vn/s1/statics.vnpay.vn/2023/11/0d79ij9ruoja1698812184967.jpg"
+        style="margin-left: 350px"
+        alt="Phong cảnh Việt Nam"
+      />
+      <br />
+      <br />
+      <p>
+        Phong cảnh Việt Nam tuyệt đẹp và đa dạng, từ những cánh đồng xanh mướt ở
+        miền Tây đến các dãy núi hùng vĩ của miền Bắc. Hạ Long Bay nổi bật với
+        hàng nghìn đảo đá vôi kỳ vĩ, trong khi thành phố Đà Lạt quyến rũ với khí
+        hậu mát mẻ và hoa cỏ rực rỡ. Vẻ đẹp của những bãi biển dài cát trắng như
+        Nha Trang và Phú Quốc, kết hợp với các di tích lịch sử và văn hóa phong
+        phú, tạo nên một bức tranh phong cảnh hấp dẫn, mời gọi du khách khám
+        phá.
+      </p>
+      <br />
+      <p>
+        Việt Nam nổi bật với phong cảnh thiên nhiên đa dạng và hùng vĩ. Từ những
+        cánh đồng xanh mướt ở miền Tây, qua các dãy núi cao hùng vĩ ở miền Bắc
+        như dãy Hoàng Liên Sơn, đến những bãi biển dài cát trắng của miền Trung
+        và miền Nam như Nha Trang và Phú Quốc. Vịnh Hạ Long với hàng nghìn đảo
+        đá vôi kỳ vĩ, bao quanh bởi nước biển xanh biếc, tạo nên một cảnh quan
+        tuyệt đẹp và huyền bí. Thành phố Đà Lạt, với khí hậu mát mẻ và những
+        vườn hoa rực rỡ, mang đến một cảm giác thanh bình và dễ chịu. Mỗi vùng
+        đất của Việt Nam đều mang một vẻ đẹp riêng, làm say lòng du khách và tạo
+        nên bức tranh phong cảnh phong phú và cuốn hút.
+      </p>
+      <br />
+    </div>
+    <footer>
+      <p>
+        &copy; 2024 Giới thiệu Cảnh đẹp và Ẩm thực Việt Nam. Tất cả quyền được
+        bảo lưu.
+      </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
